@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+            if (password === "tucontraseña") {
+                document.getElementById("loginForm").style.display = "none";
+                document.getElementById("content").style.display = "block";
+            } else {
+                alert("Contraseña incorrecta");
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="contenedor">
+        
+        <div class="dos">
+            <img src="img/1.jpeg" id="dosimg">
+        </div>
+        <div class="tres">
+            <form onsubmit="return mostrarDatos()">
+                <label for="nombre"></label>
+                <input type="text" placeholder="Nombre" id="nombre" required>
+                <br><br>
+        
+                <label for="numero"></label>
+                <input type="text" placeholder="Número" id="numero" required>
+                <br><br>
+        
+                <label for="cantidad"></label>
+                <input type="text" placeholder="0.00" id="cantidad" required>
+                <br><br>
+        
+                <input id="yepear" type="submit" value="Yapear">
+            </form>
+        
+            <script>
+                function mostrarDatos() {
+                    var nombre = document.getElementById("nombre").value;
+                    var numero = document.getElementById("numero").value;
+                    var cantidad = document.getElementById("cantidad").value;
+        
+                    // Codificar los datos en la URL y redirigir
+                    window.location.href = "index_2.html?nombre=" + encodeURIComponent(nombre) + "&numero=" + encodeURIComponent(numero) + "&cantidad=" + encodeURIComponent(cantidad);
+        
+                    return false;
+                }
+            </script>
+        </div>
+    </div>
+    
+</body>
+
+</html>

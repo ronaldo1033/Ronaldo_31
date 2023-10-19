@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index_2.css">
+    <link rel="stylesheet" href="fuente/AsimovProBd.otf">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="uno">
+            <div class="uno" style="text-align: center;">
+                <img src="img/3.gif" id="unoimg" style="display: inline-block;" width="100%">
+            </div>
+        </div>
+
+        <div class="dos" style="text-align: center;">
+            <div class="dosuno">
+                <img src="img/bordearriba.png" alt="" class="unoimg2">
+             
+                <h2 class="dosunotext">¡Yapeaste!</h2>
+            </div>
+            <div class="dosdos" style="text-align: center;">
+                <img src="img/4.jpeg" alt="" class="dosdosimg" style="display: inline-block;">
+                <p class="dosdostext"><span class="dosdostext" id="cantidadMostrada"></span></p>
+            </div>
+            <div class="dostres" style="text-align: center;">
+                <p class="dostrestext">
+                    <span class="dostrestext" id="primerasTresPalabras"></span><br>
+                    <span class="dostrestext" id="ultimaPalabra"></span>
+                </p>
+                <script>
+                    function mostrarFechaYHora() {
+                        var fecha = new Date(); // Obtiene la fecha y hora actual
+                        var day = fecha.getDate();
+                        var monthNames = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "set", "oct", "nov", "dic"];
+                        var monthIndex = fecha.getMonth();
+                        var year = fecha.getFullYear();
+                        var hours = fecha.getHours();
+                        var minutes = fecha.getMinutes();
+                        var ampm = hours >= 12 ? 'pm' : 'am';
+                        hours = hours % 12;
+                        hours = hours ? (hours < 10 ? '0' + hours : hours) : '12';
+                        minutes = minutes < 10 ? '0' + minutes : minutes;
+            
+                        var fechaActual = day + " " + monthNames[monthIndex] + ". " + year + " - " + hours + ":" + minutes + " " + ampm;
+            
+                        // Muestra la fecha y hora en un elemento HTML
+                        document.getElementById("fechaYHora").textContent = fechaActual;
+                    }
+            
+                    // Llama a la función al cargar la página
+                    window.onload = mostrarFechaYHora;
+                </script>
+                 <div id="fechaYHora"></div>
+                 
+
+            </div>
+            <div class="doscuatro" style="text-align: center;">
+                <p class="doscuatrotext1">Nº de celular:</p>
+                <p class="blanco">  l</p>
+                <span> </span>
+                <p class="doscuatrotext2"> <span class="doscuatrotext2" id="numeroMostrado"></span></p>
+            </div>
+            <div class="doscinco" >
+                <p class="doscincotext">Destino:</p> 
+                <p class="blanco">  l</p>
+                <p class="negro">Yape</p>
+            </div>
+            <div class="dosseis">
+                <p class="dosseistext">Nº de operacion: </p>
+                <p class="blanco">  l</p>  
+                <p class="negro">03843100</p>
+            </div>
+            <div class="dossiete">
+                <img src="img/bordeabajo.png" alt="" class="dossieteimg">
+            </div>
+        
+
+
+
+
+        </div>
+
+        <div class="tres" style="text-align: center;">
+            <div class="tresuno" style="text-align: center;">
+                <img class="tresunoimg" src="img/2.png" width="200px" style="display: inline-block;">
+            </div>
+            <div class="tresdos">
+                <p class="tresdosuno">Compartir</p>
+                <p class="tresdosdos">Ir a inicio</p>
+                <p class="tresdostres">Mis promos</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        var params = new URLSearchParams(window.location.search);
+        var nombre = params.get("nombre");
+        var numero = params.get("numero");
+        var cantidad = params.get("cantidad");
+    
+        // Separar el nombre en palabras
+        var palabras = nombre.split(' ');
+    
+        // Obtener las tres primeras palabras
+        var primerasTresPalabras = palabras.slice(0, 3).join(' ');
+        // Obtener la última palabra
+        var ultimaPalabra = palabras.slice(3).join(' ');
+    
+        // Mostrar las palabras en los elementos HTML correspondientes
+        document.getElementById("primerasTresPalabras").textContent = primerasTresPalabras;
+        document.getElementById("ultimaPalabra").textContent = ultimaPalabra;
+    
+        document.getElementById("numeroMostrado").textContent = numero;
+        document.getElementById("cantidadMostrada").textContent = cantidad;
+    </script>
+
+</body>
+</html>

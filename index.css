@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    border: 2px solid green;
+    border: white;
+}
+.contenedor{
+    margin: auto;
+    width: 100%;
+    max-width: 900px;
+    display: grid;
+    grid-gap: ;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: ;
+}
+.contenedor > div{
+    border: 2px solid cyan;
+}
+.contenedor .uno{
+    
+}
+.contenedor .dos{
+    height: 100px;
+}
+#dosimg{
+    width: 100%;
+}
+.tres{
+    background: ;
+    height: 995px;
+}
+#nombre{ 
+    border: 2px solid white;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5em;
+}
+#numero{ 
+    border: 2px solid white;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cantidad{ 
+    border: 2px solid white;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#yepear{
+        border: 2px solid white;
+        width: 200px;
+        text-align: center;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+}
+

@@ -1,0 +1,232 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    margin: auto;
+
+}
+.contenedor{
+
+    width: 100%;
+    height: 68em;
+    margin: auto;
+    background: linear-gradient(to bottom, 
+    #792f86 0%,  /* Color en la parte superior (0%) */
+    #792f86 25%, /* Color en el medio (50%) */
+    #742284 50%,
+    #742284 100% /* Color en la parte inferior (100%) */
+    );
+}
+.uno{
+    
+    height: 19%;
+}
+#unoimg{
+    width: 37%;
+    margin-top: 2.3em;
+}
+
+.dos{
+
+    height: 62.6%;
+    margin-left: 2.8em;
+    margin-right: 2.8em;
+    background: white;
+    
+}
+.dosuno{
+
+    height: 21%;
+}
+
+.dosunotext{
+    font-size: 37px;
+    color: #732383;
+    font-family: AsimovProBd;
+    margin-top: 1em;
+}
+
+
+.dosdos{
+
+    height: 19%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dosdosimg{
+    width: 12%;
+    margin-bottom: 1.1em;
+   
+}
+.unoimg2{
+    width: 100%;
+    position: relative;
+    top: 0em;
+}
+.dosdostext{
+    font-family: roboto;
+    color: #742284;
+    font-size: 85px;
+    margin-top: 0.2em;
+    margin-right: 0.15em;
+}
+
+
+.dostres{
+    height: 18%;
+    
+}
+.dostrestext{
+    font-size: 30px;
+    font-family: Asimov Print D font;
+    font-weight: 500;
+    color: #202e41;
+    margin-top: 0.8em;
+}
+#fechaYHora{
+    font-size: 21px;
+    font-family: AsimovProBd;
+    color: #69696f;
+    margin-top: 0.5em;
+
+}
+
+.doscuatro{
+    border-top: 1px solid rgb(231, 228, 228);
+    border-bottom: 1px solid rgb(231, 228, 228);
+    margin-top: 2em;
+    height: 8.5%;
+    font-family: AsimovProBd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doscuatrotext1{
+    display: inline;
+    font-family: AsimovProBd;
+    color: #97979c;
+    font-size: 20px;
+}
+
+.doscuatrotext2{
+    display: inline;
+    font-size: 20px;
+    
+}
+
+
+.doscinco{
+    height: 8.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doscinco > p{
+    display: inline;
+    font-family: AsimovProBd;
+    font-size: 20px;
+}
+.doscincotext{
+    font-family: AsimovProBd;
+    color: #97979c;
+    font-size: 20px;
+}
+
+
+
+.dosseis{
+
+    height: 8.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgb(231, 228, 228);
+    border-bottom: 1px solid rgb(231, 228, 228);
+}
+.dosseis > p{
+    display: inline;
+    font-size: 20px;
+    font-family: AsimovProBd;
+}
+.dosseistext{
+    font-family: AsimovProBd;
+    color: #97979c;
+    font-size: 20px;
+}
+
+
+
+.dossiete{
+   
+
+}
+.dossieteimg{
+    width: 100%;
+    margin-top: 2.3em;
+}
+
+
+.tres{
+    height: 17.7%;
+}
+.tresuno{
+
+    height: 60%;
+}
+.tresdos{
+
+    height: 37%;
+}
+.tresunoimg{
+    width: 67%;
+    height: 122%;
+    margin-top: 2em;
+}
+.tresdos > p{
+    display: inline;
+}
+.tresdosuno{
+    font-family: AsimovProBd;
+    color: white;
+    position: relative;
+    top: 13px;
+    right: 47px;
+    font-size: 19px;
+}
+.tresdosdos{
+    font-family: AsimovProBd;
+    color: white;
+    position: relative;
+    left: 6px;
+    top: 13px;
+
+    font-size: 19px;
+}
+.tresdostres{
+    font-family: AsimovProBd;
+    color: white;
+    position: relative;
+    top: 13px;
+    left: 40px;
+    font-size: 19px;
+}
+
+
+
+
+html{
+    background: #742284;
+}
+
+.negro{
+    display: inline;
+    
+}
+.blanco{
+    color: white;
+    display: inline;
+}

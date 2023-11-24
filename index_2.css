@@ -11,7 +11,7 @@ body{
 .contenedor{
 
     width: 100%;
-    height: 90em;
+    height: 68em;
     margin: auto;
     background: linear-gradient(to bottom, 
     #792f86 0%,  /* Color en la parte superior (0%) */
@@ -31,9 +31,9 @@ body{
 
 .dos{
 
-    height: 60%;
-    margin-left: 3.5em;
-    margin-right: 3.5em;
+    height: 62.6%;
+    margin-left: 2.8em;
+    margin-right: 2.8em;
     background: white;
     
 }
@@ -43,7 +43,7 @@ body{
 }
 
 .dosunotext{
-    font-size: 48px;
+    font-size: 37px;
     color: #732383;
     font-family: AsimovProBd;
     margin-top: 1em;
@@ -65,12 +65,12 @@ body{
 .unoimg2{
     width: 100%;
     position: relative;
-    top: -1.2em;
+    top: em;
 }
 .dosdostext{
     font-family: roboto;
     color: #742284;
-    font-size: 115px;
+    font-size: 85px;
     margin-top: 0.2em;
     margin-right: 0.15em;
 }
@@ -81,14 +81,14 @@ body{
     
 }
 .dostrestext{
-    font-size: 38px;
+    font-size: 30px;
     font-family: Asimov Print D font;
     font-weight: 500;
     color: #202e41;
     margin-top: 0.8em;
 }
 #fechaYHora{
-    font-size: 26px;
+    font-size: 21px;
     font-family: AsimovProBd;
     color: #69696f;
     margin-top: 0.5em;
@@ -109,12 +109,12 @@ body{
     display: inline;
     font-family: AsimovProBd;
     color: #97979c;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .doscuatrotext2{
     display: inline;
-    font-size: 26px;
+    font-size: 20px;
     
 }
 
@@ -128,12 +128,12 @@ body{
 .doscinco > p{
     display: inline;
     font-family: AsimovProBd;
-    font-size: 26px;
+    font-size: 20px;
 }
 .doscincotext{
     font-family: AsimovProBd;
     color: #97979c;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 
@@ -149,13 +149,13 @@ body{
 }
 .dosseis > p{
     display: inline;
-    font-size: 26px;
+    font-size: 20px;
     font-family: AsimovProBd;
 }
 .dosseistext{
     font-family: AsimovProBd;
     color: #97979c;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 
@@ -172,6 +172,7 @@ body{
 
 .tres{
     height: 17.7%;
+    margin-top: -1em;
 }
 .tresuno{
 
@@ -182,9 +183,9 @@ body{
     height: 37%;
 }
 .tresunoimg{
-    width: 67%;
+    width: 70%;
     height: 122%;
-    margin-top: 2em;
+    margin-top: 2.5em;
 }
 .tresdos > p{
     display: inline;
@@ -193,27 +194,28 @@ body{
     font-family: AsimovProBd;
     color: white;
     position: relative;
-    top: 13px;
+    top: 20px;
     right: 47px;
-    font-size: 25px;
+    font-size: 19px;
 }
 .tresdosdos{
     font-family: AsimovProBd;
     color: white;
     position: relative;
     left: 6px;
-    top: 13px;
+    top: 20px;
 
-    font-size: 25px;
+    font-size: 19px;
 }
 .tresdostres{
     font-family: AsimovProBd;
     color: white;
     position: relative;
-    top: 13px;
+    top: 20px;
     left: 40px;
-    font-size: 25px;
+    font-size: 19px;
 }
+
 
 .cuatro{
     height: 10%;
